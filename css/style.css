@@ -4,7 +4,7 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	background-color: black;
-	background-image: url("images/background.png");
+	background-image: url("/images/background.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	color: #f7f4f1;
@@ -70,7 +70,7 @@ background-color: black;
 
 .main-columns {
 	background-color: #f7f4f1;
-	background-image: url("images/background_section.png");
+	background-image: url("/images/background_section.png");
 	background-position: 0 0;
 	background-repeat: repeat;
 	color: black;
@@ -107,7 +107,7 @@ background-color: black;
 
 .main-footer {
 	background-color: #242424;
-	background-image: url("images/footer-background.png");
+	background-image: url("/images/footer-background.png");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
@@ -163,7 +163,7 @@ background-color: black;
 .modal {
 	color: black;
 	background-color: #fbf8f5;
-	background-image: url("images/images-catalog/background-modal.png");
+	background-image: url("/images/images-catalog/background-modal.png");
 	background-position: 0 0;
 	background-repeat: repeat;
 }
