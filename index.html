@@ -8,46 +8,52 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
 <header class="main-header">
   <nav class="main-navigation">
 
-  <a>
+  <a class="navigation-logo" href="index.html">
     <img src="images/index-logo1.svg" width="370px" height="153px" alt="Логотип">
   </a>
-
+<div class="navigation-items">
+  <div class="container">
   <ul class="site-navigation">
-    <li><a href="info.html">Информация</a></li>
-    <li><a href="news.html">Новости</a></li>
+    <li><a href="#">Информация</a></li>
+    <li><a href="#">Новости</a></li>
     <li><a href="price.html">Прайс-лист</a></li>
     <li><a href="catalog.html">Магазин</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
+    <li><a href="#">Контакты</a></li>
   </ul>
   <ul class="user-navigation">
     <li><a href="login.html">Вход</a></li>
   </ul>
+  </div>
+</div>
   </nav>
 </header>
-<main class="container">
+
+
+<main class="container-main">
   <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
 
   <section class="advantages">
     <h2 class="visually-hidden">Преимущества</h2>
-  <ul>
-    <li>
+  <ul class="advantages-list">
+    <li class="advantages-item">
       <h3>Быстро</h3>
       <p>Мы делаем свою работу быстро! Два часа
         пролетят незаметно и вы — счастливый
         обладатель стильной стрижки-минутки!
       </p>
     </li>
-    <li>
+    <li class="advantages-item">
       <h3>Круто</h3>
       <p>Забудьте, как вы стриглись раньше.
         Мы сделаем из вас звезду футбола или кино!
         Во всяком случае внешне.
       </p>
     </li>
-    <li>
+    <li class="advantages-item">
       <h3>Дорого</h3>
       <p>Наши мастера — профессионалы своего дела и
         не могут стоить дешево. К тому же, разве цена
@@ -60,7 +66,7 @@
   <div class="main-columns">
   <section class="news">
     <h2>Новости</h2>
-    <ul>
+    <ul class="news-list">
       <li>
         <p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
         <time datetime="2019-01-11">11 января</time>
@@ -74,7 +80,7 @@
   </section>
 
   <section class="photo-gallery">
-    <h3>Фотогалерея</h3>
+    <h2>Фотогалерея</h2>
     <figure class="gallery-content">
       <a href="gallery.html" title="Перейти в галлерею">
         <img src="images/gallery.jpg" width="328" height="164" alt="Интерьер">
@@ -96,7 +102,7 @@
       ПН—ПТ: С 10:00 ДО 22:00<br>
       СБ—ВС: С 10:00 ДО 19:00</p>
     <a  class="btn" href="map.html" title="Открыть карту">Как проехать</a>
-    <a  class="btn" href="contacts.html" title="Открыть форму обратной связи">Обратная связь</a>
+    <a  class="btn" href="#" title="Открыть форму обратной связи">Обратная связь</a>
   </section>
 
   <section class="appointment">
@@ -136,15 +142,17 @@
 </main>
 
 <footer class="main-footer">
+  <div class="container">
   <p class="footer-contacts">
     Барбершоп «бородинский»<br>
     адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
     <a href="map.html" title="Открыть карту"> КАК НАС НАЙТИ?</a><br>
     Телефон: +7 (495) 666-02-66
   </p>
+
   <div class="socials">
   <p>Давайте дружить!</p>
-  <ul>
+  <ul class="social-button-list">
     <li><a class="social-button" href="#">Вконтакте</a> </li>
     <li><a class="social-button" href="#">Фейсбук</a></li>
     <li><a class="social-button" href="#">Инстаграм</a></li>
@@ -155,6 +163,7 @@
     <b>РАЗРАБОТАНО:</b>
   <a class="btn" href="https://htmlacademy.ru">html academy</a>
   </p>
+  </div>
 </footer>
 
 
